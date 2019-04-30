@@ -1,0 +1,17 @@
+.todo-item {
+
+  .form-input {
+    display: none;
+
+    .is-edit & {
+      display: block;
+    }
+  }
+
+  .form-span {
+
+    .is-edit & {
+      display: none;
+    }
+  }
+}
